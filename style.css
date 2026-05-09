@@ -2,11 +2,10 @@ body {
     margin: 0;
     background-color: black;
     color: white;
-    font-family: Helvetica, sans-serif;
+    font-family: "Inter";
     height:100vh;
     position:relative;
 }
-
 .title {
     position: absolute;
     top: 50%;
@@ -14,6 +13,12 @@ body {
     transform: translate(-50%,-50%);
     font-size: 96px;
     letter-spacing:8 px;
+}
+
+.fire-icon {
+    width:64px;
+    height:auto;
+    transform: translate(20%,40%)
 }
 
 nav {
