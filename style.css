@@ -16,10 +16,9 @@ body {
     background-attachment: fixed;
 }
 .title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-120%);
+    position:absolute;
+    top:30px;
+    left:40px;
     font-size: 120px;
     letter-spacing:8 px;
     font-weight: 900;
