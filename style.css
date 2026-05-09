@@ -131,3 +131,26 @@ nav {
     opacity: 0.75
     letter-spacing: 0.02em;
 }
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 64px;
+        letter-spacing: 4px;
+    }
+    nav {
+        top: 20px;
+        right: 20px;
+    }
+    .header {
+        font-size: 12px;
+        margin-left: 16px;
+    }
+    #instagram-logo {
+        left: 20px;
+        bottom: 20px;
+    }
+    #instagram-logo img {
+        width: 24px;
+    }
+
+}
