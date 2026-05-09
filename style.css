@@ -133,24 +133,26 @@ nav {
 }
 
 @media (max-width: 768px) {
-    .title {
-        font-size: 64px;
-        letter-spacing: 4px;
-    }
     nav {
-        top: 20px;
-        right: 20px;
+        position: absolute;
+        top: 24px;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        gap: 16px;
     }
     .header {
-        font-size: 12px;
-        margin-left: 16px;
+        margin-left: 0;
+        font-size: 11px;
     }
-    #instagram-logo {
-        left: 20px;
-        bottom: 20px;
+    .fire-icon {
+        width: 32px;
     }
-    #instagram-logo img {
-        width: 24px;
+    .title {
+        top: 50%;
+        font-size: 72px;
+        letter-spacing: 5px;
     }
-
 }
