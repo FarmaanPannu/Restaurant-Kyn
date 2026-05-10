@@ -155,4 +155,18 @@ nav {
         font-size: 72px;
         letter-spacing: 5px;
     }
+    #instagram-logo {
+        position: fixed !important;
+        left: 20px !important;
+        right: auto !important;
+        bottom: 20px !important;
+        top: auto !important;
+        transform: none !important;
+        z-index: 1000;
+    }
+    #instagram-logo img {
+        width: 24px;
+        height: auto;
+        display: block;
+    }
 }
