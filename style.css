@@ -138,7 +138,7 @@ nav {
         left: 40%;
         transform: translateX(-50%);
         font-size: clamp(64px, 22vw, 96px);
-        letter-spacing: 14px;
+        letter-spacing: 10px;
     }
     nav {
         position:absolute;
@@ -154,12 +154,12 @@ nav {
         height: auto;
 
         transform: none;
-        margin-left: 20%;
+        margin-left: 16%;
     }
     .header {
         color:white;
         text-decoration: none;
-        margin-left:20%;
+        margin-left:18%;
         font-size:16px;
 
     }
