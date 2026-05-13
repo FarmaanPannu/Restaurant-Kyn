@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     background-color: black;
@@ -60,6 +62,9 @@ a.underlined {
     height:auto;
     display:block;
 }
+
+/* Menu Page */
+
 .menu-container {
     position: absolute;
 
@@ -101,6 +106,8 @@ a.underlined {
     margin: 0;
 }
 
+/* Individual Menu Pages */
+
 .individual-menu {
     position: absolute;
 
@@ -112,7 +119,6 @@ a.underlined {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .dish {
@@ -143,6 +149,107 @@ a.underlined {
     opacity: 0.75;
     letter-spacing: 0.02em;
 }
+
+/* Gallery Page */
+
+.gallery-container {
+    width: 70%;
+    position: relative;
+    top: 200px;
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1%;
+
+}
+
+.gallery-container img {
+    width:100%;
+    height: auto;
+    display: block;
+}
+
+/* About Page */
+
+#oaxaca {
+    width: 30%;
+    
+    position: relative;
+    top: 200px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+#oaxaca img {
+    width: 90%;
+    height: auto;
+
+    display: block;
+    margin: 0 auto;
+}
+
+.story-section {
+    width: 90%;
+    margin: 120px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 120px;
+    position: relative;
+    top: 90px;
+    padding-bottom: 5%;
+}
+
+.caption {
+    font-size: 22px;
+    z-index: 2;
+}
+
+#story {
+    max-width: 700px;
+    line-height: 1.4;
+    font-size: 18px;
+    margin: 0;
+    z-index: 2;
+    font-size:15px;
+    font-weight:100;
+}
+
+/* Journal Page */
+.journal {
+    width: 70%;
+    margin: 0 auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding-top:16%;
+    padding-bottom:5%;
+}
+.entry {
+    text-decoration: none;
+    color: white;
+}
+.entry-image img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+}
+.entry-title {
+    margin-top: 12px;
+    font-size: 18px;
+}
+.entry-date {
+    margin-top: 6px;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+/* Mobile Formatting */
+
 @media (max-width: 840px) {
 
     nav {
