@@ -162,7 +162,7 @@ a.underlined {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap:1%;
-
+    padding-bottom: 5%;
 }
 
 .gallery-container img {
